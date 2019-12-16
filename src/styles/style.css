@@ -1,0 +1,53 @@
+@font-face {
+  font-family: "Brown-bold";
+  src: url("fonts/Brown-Bold.otf");
+}
+
+@font-face {
+  font-family: "Brown-regular";
+  src: url("fonts/Brown-Regular.otf");
+}
+
+* {
+  font-family: Brown-regular;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #f4f4f4;
+}
+
+h1,
+body {
+  margin: 0;
+}
+
+header {
+  text-align: center;
+  color: #7878f4;
+  margin-bottom: 20px;
+  font-size: 28px;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+aside {
+  width: 220px;
+  height: 80vh;
+  border: 0.4px solid #dadada;
+  overflow-y: scroll;
+  border-radius: 5px;
+}
+
+main {
+  height: 80vh;
+  width: 70vw;
+  border: 0.4px solid #dadada;
+  border-radius: 5px;
+  overflow: hidden;
+}

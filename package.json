@@ -1,0 +1,23 @@
+{
+  "name": "visma",
+  "version": "1.0.0",
+  "description": "Gallery for Visma internship",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html --open",
+    "build": "parcel build src/index.html --out-dir public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KristupasL/PhotoGallery.git"
+  },
+  "author": "Kristupas Lapeika",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KristupasL/PhotoGallery/issues"
+  },
+  "homepage": "https://github.com/KristupasL/PhotoGallery#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
